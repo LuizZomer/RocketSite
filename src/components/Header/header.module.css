@@ -1,0 +1,36 @@
+#header{
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: blue;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0);
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+#logo{
+    margin-left: 20px;
+    object-fit: contain;
+}
+
+#navbar ul{
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+}
+
+#navbar .link{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#navbar .link:hover{
+    color: blue;
+    padding: 5px;
+    background-color: lightblue;
+}

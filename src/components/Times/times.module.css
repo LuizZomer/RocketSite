@@ -1,0 +1,45 @@
+#orgs{
+    background: linear-gradient(to bottom, blue , white );
+}
+
+#container_time{
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#title{
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+.fotos{
+    object-fit: contain;
+}
+
+#time_grid{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    gap: 10px;
+}
+
+.time{
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.time span{
+    margin-top: 5px;
+}
+
+.time:hover{
+    transform: scale(1.1);
+}

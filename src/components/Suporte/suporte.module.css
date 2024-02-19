@@ -1,0 +1,44 @@
+.suporte_container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+}
+
+#form{
+    margin-top: 1.1em;
+}
+
+#form span{
+    margin-left: -2.2em;
+}
+
+#form input{
+    width: 34em;
+    height: 3em;
+    display: block;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 1.02em;
+}
+
+#form textarea{
+    resize: none;
+    display: block;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+#form button{
+    width: 5em;
+}
+
+#btn_submit{
+    width: 100%;
+    height: 2em;
+    background: linear-gradient(to left,blue, royalblue);
+    color: white;
+    border: 1px solid blue;
+    border-radius: 4px;
+    margin-top: 4px;
+}

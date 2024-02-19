@@ -1,0 +1,35 @@
+.sobre{
+    background-color: blue;
+    scroll-margin-top: 110px;
+    scroll-behavior: smooth;
+}
+
+#container_sobre{
+    width: 1370px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+}
+
+#foto{
+    object-fit: contain;
+}
+
+#sobre h1{
+    color: white;
+    font-size: 3em;
+}
+
+#text_sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-left: 10px;
+}
+
+#text_sobre p{
+    color: white;
+    margin-top: 20px;
+    font-size: 1.4em;
+}
